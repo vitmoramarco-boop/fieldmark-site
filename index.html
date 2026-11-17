@@ -1,166 +1,243 @@
 <!DOCTYPE html>
-<html lang="en-AU">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fieldmark Consultancy | Export, cost optimisation and sales decks for growing businesses</title>
-<meta name="description" content="Fieldmark Consultancy helps small and mid-sized businesses grow: export and market entry, distributor acquisition, cost optimisation and expense tracking, and sales decks and presentations. Working internationally.">
+<title>Fieldmark Consultancy | Growth, websites, automation and export for ambitious businesses</title>
+<meta name="description" content="Fieldmark Consultancy is an international growth partner: websites, AI automation, sales decks, cost optimisation, KPI dashboards, export and distributor acquisition. Fixed scope, built and delivered for you.">
 <meta name="author" content="Antonio Moramarco">
 <link rel="canonical" href="https://fieldmarkconsultancy.com/">
 <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/mark-512.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Fieldmark Consultancy">
-<meta property="og:description" content="Export, cost optimisation and sales decks for growing businesses. Working internationally.">
+<meta property="og:title" content="Fieldmark Consultancy - Grow further. Spend smarter. Pitch better.">
+<meta property="og:description" content="Websites, AI automation, sales decks, cost optimisation and export growth. Built and delivered for you.">
 <meta property="og:url" content="https://fieldmarkconsultancy.com/">
 <meta property="og:image" content="https://fieldmarkconsultancy.com/assets/og.png">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ProfessionalService","name":"Fieldmark Consultancy","url":"https://fieldmarkconsultancy.com/","email":"hello@fieldmarkconsultancy.com","logo":"https://fieldmarkconsultancy.com/assets/mark-512.png","areaServed":"Worldwide","address":{"@type":"PostalAddress","addressLocality":"Sydney","addressRegion":"NSW","addressCountry":"AU"},"description":"Export and market entry, distributor acquisition, cost optimisation and expense tracking, sales decks and presentations for small and mid-sized businesses."}
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Fieldmark Consultancy","url":"https://fieldmarkconsultancy.com/","email":"hello@fieldmarkconsultancy.com","logo":"https://fieldmarkconsultancy.com/assets/mark-512.png","areaServed":"Worldwide","address":{"@type":"PostalAddress","addressLocality":"Sydney","addressRegion":"NSW","addressCountry":"AU"},"description":"International growth consultancy: websites, AI automation, sales decks, cost optimisation, KPI dashboards, export and distributor acquisition.","sameAs":["https://www.linkedin.com/company/fieldmark-consultancy"]}
 </script>
 <style>
-:root{--ink:#0E2A3B;--ink2:#36505F;--cream:#F5F1E8;--paper:#FBF9F4;--ochre:#E3A23B;--green:#2F6B4F;--line:#E2DCCF;--r:14px}
+:root{--bg:#07131C;--bg2:#0C1F2C;--card:#102838;--line:rgba(255,255,255,.09);--txt:#EAF1F4;--mut:#9DB2BD;--ochre:#F2B441;--coral:#FF6B4A;--mint:#3DDC97;--sky:#5AB8FF;--r:20px}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;font-size:17px}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6;font-size:17px;overflow-x:hidden}
+h1,h2,h3,.brand,.big{font-family:"Space Grotesk",Inter,sans-serif;letter-spacing:-.03em}
 a{color:inherit}
-.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
-header{position:sticky;top:0;z-index:10;background:rgba(251,249,244,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
-.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;text-decoration:none;letter-spacing:-.02em}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+header{position:fixed;inset:0 0 auto 0;z-index:50;transition:.3s}
+header.s{background:rgba(7,19,28,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:21px;text-decoration:none}
 .brand img{width:34px;height:34px}
-.brand small{font-weight:500;color:var(--ink2);font-size:14px;letter-spacing:0}
-.nav ul{display:flex;gap:28px;list-style:none;font-size:15px;font-weight:500}
-.nav ul a{text-decoration:none;color:var(--ink2)}
-.nav ul a:hover{color:var(--ink)}
-.btn{display:inline-block;background:var(--ink);color:var(--cream);padding:13px 22px;border-radius:999px;text-decoration:none;font-weight:600;font-size:15px;border:0;cursor:pointer;font-family:inherit}
-.btn:hover{background:#163B52}
-.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
-.btn.ochre{background:var(--ochre);color:var(--ink)}
-.hero{padding:96px 0 80px}
-.eyebrow{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--green);margin-bottom:18px}
-h1{font-size:clamp(40px,6vw,68px);line-height:1.04;letter-spacing:-.035em;font-weight:800;max-width:15ch}
-h1 em{font-style:normal;color:var(--ochre)}
-.lead{font-size:20px;color:var(--ink2);max-width:58ch;margin:24px 0 36px}
+.brand span{color:var(--mut);font-weight:500;font-size:15px}
+.nav ul{display:flex;gap:30px;list-style:none;font-size:15px}
+.nav ul a{text-decoration:none;color:var(--mut);transition:.2s}.nav ul a:hover{color:var(--txt)}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--ochre);color:#1A1205;padding:14px 24px;border-radius:999px;text-decoration:none;font-weight:600;font-size:15px;border:0;cursor:pointer;font-family:inherit;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(242,180,65,.35)}
+.btn.ghost{background:transparent;color:var(--txt);border:1px solid rgba(255,255,255,.25)}
+.btn.ghost:hover{box-shadow:none;border-color:var(--txt)}
+.hero{position:relative;padding:170px 0 110px;overflow:hidden}
+.blob{position:absolute;border-radius:50%;filter:blur(90px);opacity:.55;animation:float 14s ease-in-out infinite}
+.b1{width:520px;height:520px;background:#1B6BA8;top:-140px;right:-120px}
+.b2{width:380px;height:380px;background:#C2572F;bottom:-160px;left:-80px;animation-delay:-5s}
+.b3{width:260px;height:260px;background:#8A6A12;top:180px;left:45%;animation-delay:-9s}
+@keyframes float{50%{transform:translate(30px,-30px) scale(1.08)}}
+.grid-bg{position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:64px 64px;mask-image:radial-gradient(ellipse at 50% 30%,#000 30%,transparent 75%)}
+.hero .wrap{position:relative}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:7px 14px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.04);font-size:13px;color:var(--mut);margin-bottom:28px}
+.pill i{width:8px;height:8px;border-radius:50%;background:var(--mint);box-shadow:0 0 0 4px rgba(61,220,151,.18);animation:pulse 2s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 8px rgba(61,220,151,0)}}
+h1{font-size:clamp(46px,7.4vw,96px);line-height:.98;font-weight:700;max-width:13ch}
+.grad{background:linear-gradient(100deg,var(--ochre),var(--coral) 55%,#FF8FB1);-webkit-background-clip:text;background-clip:text;color:transparent}
+.rot{display:inline-block;color:var(--sky);transition:opacity .25s}
+.lead{font-size:20px;color:var(--mut);max-width:56ch;margin:28px 0 40px}
 .cta{display:flex;gap:12px;flex-wrap:wrap}
-.strip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin-top:64px}
-.strip div{background:var(--paper);padding:20px;font-size:14px;color:var(--ink2)}
-.strip b{display:block;color:var(--ink);font-size:16px;margin-bottom:2px}
-section{padding:88px 0}
-section.alt{background:var(--cream)}
-h2{font-size:clamp(30px,4vw,44px);letter-spacing:-.03em;line-height:1.1;font-weight:800;max-width:22ch;margin-bottom:16px}
-.sub{color:var(--ink2);max-width:62ch;margin-bottom:48px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:30px;display:flex;flex-direction:column}
-.card .ic{width:44px;height:44px;border-radius:12px;background:var(--ink);color:var(--ochre);display:grid;place-items:center;font-weight:800;margin-bottom:18px}
-.card h3{font-size:21px;letter-spacing:-.02em;margin-bottom:8px}
-.card p{color:var(--ink2);font-size:15.5px;margin-bottom:14px}
-.card ul{list-style:none;font-size:15px;margin-top:auto}
-.card li{padding:7px 0;border-top:1px solid var(--line)}
-.card li:before{content:"\2192";color:var(--green);margin-right:8px;font-weight:700}
-.card.feature{background:var(--ink);color:var(--cream);border-color:var(--ink)}
-.card.feature p,.card.feature li{color:#C9D3D8}
-.card.feature li{border-color:#2A475A}
-.card.feature .ic{background:var(--ochre);color:var(--ink)}
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:s}
-.step{border-top:3px solid var(--ink);padding-top:18px}
-.step:before{counter-increment:s;content:"0" counter(s);font-weight:800;color:var(--ochre);font-size:15px}
-.step h3{font-size:20px;margin:6px 0}
-.step p{color:var(--ink2);font-size:15.5px}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
-.why li{list-style:none;padding:16px 0;border-bottom:1px solid var(--line)}
-.why b{display:block}
-.why span{color:var(--ink2);font-size:15.5px}
-details{border-bottom:1px solid var(--line);padding:18px 0}
-summary{cursor:pointer;font-weight:600;font-size:17px;list-style:none;display:flex;justify-content:space-between}
-summary:after{content:"+";color:var(--ochre);font-weight:800}
-details[open] summary:after{content:"\2212"}
-details p{color:var(--ink2);margin-top:10px;font-size:15.5px}
-.contact{background:var(--ink);color:var(--cream);border-radius:22px;padding:56px;display:grid;grid-template-columns:1fr 1fr;gap:48px}
-.contact h2{color:var(--cream)}
-.contact .sub{color:#C9D3D8;margin-bottom:24px}
+.trust{display:flex;gap:28px;flex-wrap:wrap;margin-top:56px;color:var(--mut);font-size:14px}
+.trust b{color:var(--txt);font-weight:600}
+.marq{border-block:1px solid var(--line);background:var(--bg2);overflow:hidden;padding:18px 0}
+.marq div{display:flex;gap:48px;width:max-content;animation:scroll 38s linear infinite;font-family:"Space Grotesk";font-size:22px;color:var(--mut);white-space:nowrap}
+.marq span:nth-child(4n+1){color:var(--txt)}
+.marq em{font-style:normal;color:var(--ochre)}
+@keyframes scroll{to{transform:translateX(-50%)}}
+section{padding:110px 0;position:relative}
+.eyebrow{display:inline-block;font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ochre);margin-bottom:16px}
+h2{font-size:clamp(34px,4.6vw,58px);line-height:1.04;font-weight:700;max-width:18ch;margin-bottom:18px}
+.sub{color:var(--mut);max-width:60ch;margin-bottom:56px;font-size:18px}
+.bento{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.tile{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:28px;overflow:hidden;transition:transform .3s,border-color .3s}
+.tile:hover{transform:translateY(-4px);border-color:rgba(255,255,255,.22)}
+.tile:before{content:"";position:absolute;right:-30%;bottom:-50%;width:240px;height:240px;border-radius:50%;background:var(--c,var(--sky));filter:blur(70px);opacity:.18;transition:.4s;pointer-events:none}
+.tile:hover:before{opacity:.35}
+.tile .n{font-family:"Space Grotesk";font-size:13px;color:var(--mut)}
+.tile .ic{font-size:30px;margin:14px 0 10px;display:block}
+.tile h3{font-size:24px;line-height:1.15;margin-bottom:10px}
+.tile p{color:var(--mut);font-size:15.5px}
+.tile ul{list-style:none;margin-top:16px;display:flex;flex-wrap:wrap;gap:8px}
+.tile li{font-size:13px;padding:5px 11px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid var(--line)}
+.w2{grid-column:span 2}
+.tile.hot{background:linear-gradient(140deg,#1C3B52,#102838 60%)}
+.mock{margin-top:22px;border-radius:14px;border:1px solid var(--line);background:#081722;padding:14px}
+.mock .bar{display:flex;gap:6px;margin-bottom:12px}.mock .bar i{width:9px;height:9px;border-radius:50%;background:#FF5F57}.mock .bar i:nth-child(2){background:#FEBC2E}.mock .bar i:nth-child(3){background:#28C840}
+.mock .l{height:10px;border-radius:5px;background:rgba(255,255,255,.1);margin:8px 0}
+.mock .hl{height:22px;width:70%;border-radius:6px;background:linear-gradient(90deg,var(--ochre),var(--coral))}
+.mock .row{display:flex;gap:8px;margin-top:12px}.mock .row div{flex:1;height:54px;border-radius:8px;background:rgba(255,255,255,.06)}
+.bars{display:flex;align-items:flex-end;gap:7px;height:90px;margin-top:20px}
+.bars i{flex:1;border-radius:6px 6px 0 0;background:linear-gradient(var(--mint),rgba(61,220,151,.25))}
+.flow{display:flex;align-items:center;gap:8px;margin-top:20px;flex-wrap:wrap;font-size:13px}
+.flow span{padding:7px 12px;border-radius:10px;background:rgba(90,184,255,.12);border:1px solid rgba(90,184,255,.3)}
+.flow b{color:var(--sky)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.step{padding:28px;border-radius:var(--r);border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.04),transparent)}
+.step .k{font-family:"Space Grotesk";font-size:44px;font-weight:700;background:linear-gradient(var(--ochre),var(--coral));-webkit-background-clip:text;background-clip:text;color:transparent}
+.step h3{font-size:22px;margin:6px 0 8px}
+.step p{color:var(--mut);font-size:15.5px}
+.offers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.offer{border-radius:var(--r);padding:32px;border:1px solid var(--line);background:var(--card);display:flex;flex-direction:column}
+.offer.pop{background:linear-gradient(160deg,#F2B441,#FF6B4A);color:#1A1205;border:0}
+.offer.pop p,.offer.pop li{color:#3A2408}
+.offer .tag{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;opacity:.8}
+.offer h3{font-size:28px;margin:10px 0}
+.offer p{color:var(--mut);font-size:15.5px}
+.offer ul{list-style:none;margin:20px 0 26px;flex:1}
+.offer li{padding:9px 0;border-top:1px solid rgba(255,255,255,.08);font-size:15px;color:var(--txt)}
+.offer.pop li{border-color:rgba(0,0,0,.12)}
+.offer li:before{content:"\2713";margin-right:10px;font-weight:700;color:var(--mint)}
+.offer.pop li:before{color:#1A1205}
+.offer.pop .btn{background:#07131C;color:#fff}
+.why{display:grid;grid-template-columns:1.1fr 1fr;gap:64px;align-items:center}
+.big{font-size:clamp(28px,3.4vw,42px);line-height:1.15;font-weight:600}
+.big em{font-style:normal;color:var(--ochre)}
+.checks{display:grid;gap:14px}
+.check{display:flex;gap:16px;padding:20px;border-radius:16px;background:var(--card);border:1px solid var(--line)}
+.check i{flex:none;width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:rgba(242,180,65,.14);font-style:normal;font-size:19px}
+.check b{display:block;font-size:17px}
+.check span{color:var(--mut);font-size:15px}
+.faq{display:grid;grid-template-columns:1fr 1.4fr;gap:64px}
+details{border-bottom:1px solid var(--line);padding:22px 0}
+summary{cursor:pointer;font-weight:600;font-size:18px;list-style:none;display:flex;justify-content:space-between;gap:20px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";color:var(--ochre);font-size:24px;line-height:1;transition:.2s}
+details[open] summary:after{transform:rotate(45deg)}
+details p{color:var(--mut);margin-top:12px}
+.contact{position:relative;border-radius:28px;padding:64px;overflow:hidden;background:linear-gradient(135deg,#123A55,#0C1F2C 55%,#3A1E14);border:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.contact h2{max-width:14ch}
 form{display:grid;gap:12px}
-input,select,textarea{width:100%;padding:13px 14px;border-radius:10px;border:1px solid #2A475A;background:#123447;color:var(--cream);font:inherit;font-size:15px}
-input::placeholder,textarea::placeholder{color:#8FA3AD}
-textarea{min-height:110px;resize:vertical}
+input,select,textarea{width:100%;padding:15px 16px;border-radius:12px;border:1px solid rgba(255,255,255,.14);background:rgba(7,19,28,.55);color:var(--txt);font:inherit;font-size:15px;transition:border-color .2s}
+input:focus,select:focus,textarea:focus{outline:0;border-color:var(--ochre)}
+select{appearance:none}
+option{background:#0C1F2C}
+input::placeholder,textarea::placeholder{color:#7F95A0}
+textarea{min-height:120px;resize:vertical}
 .hp{position:absolute;left:-9999px}
-footer{padding:40px 0;font-size:14px;color:var(--ink2)}
-footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
-@media(max-width:880px){.grid,.steps{grid-template-columns:1fr 1fr}.two,.contact{grid-template-columns:1fr}.strip{grid-template-columns:1fr 1fr}.nav ul{display:none}.contact{padding:32px}}
-@media(max-width:560px){.grid,.steps,.strip{grid-template-columns:1fr}.hero{padding:64px 0 56px}section{padding:64px 0}}
+.mail{display:inline-flex;gap:10px;align-items:center;margin-top:8px;color:var(--ochre);font-weight:600;text-decoration:none;font-size:18px}
+footer{padding:48px 0;color:var(--mut);font-size:14px;border-top:1px solid var(--line)}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px}
+footer a{text-decoration:none}footer a:hover{color:var(--txt)}
+.rv{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s ease}
+.rv.in{opacity:1;transform:none}
+@media(max-width:980px){.bento{grid-template-columns:1fr 1fr}.steps,.offers{grid-template-columns:1fr 1fr}.why,.faq,.contact{grid-template-columns:1fr}.nav ul{display:none}.contact{padding:36px}}
+@media(max-width:620px){.bento,.steps,.offers{grid-template-columns:1fr}.w2{grid-column:auto}.hero{padding:130px 0 80px}section{padding:80px 0}.nav .btn{padding:11px 16px;font-size:14px}.brand span{display:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
 </style>
 </head>
 <body>
-<header><div class="wrap nav">
-<a class="brand" href="#top"><img src="assets/mark.svg" alt="">Fieldmark <small>Consultancy</small></a>
-<ul><li><a href="#services">Services</a></li><li><a href="#how">How it works</a></li><li><a href="#faq">FAQ</a></li></ul>
+<header id="hd"><div class="wrap nav">
+<a class="brand" href="#top"><img src="assets/mark.svg" alt="Fieldmark logo">Fieldmark <span>Consultancy</span></a>
+<ul><li><a href="#services">Services</a></li><li><a href="#how">How we work</a></li><li><a href="#packages">Packages</a></li><li><a href="#faq">FAQ</a></li></ul>
 <a class="btn" href="#contact">Book a free call</a>
 </div></header>
 
 <main id="top">
-<div class="wrap hero">
-<span class="eyebrow">International business consultancy</span>
-<h1>Grow further. <em>Spend smarter.</em> Pitch better.</h1>
-<p class="lead">Fieldmark Consultancy helps small and mid-sized businesses enter new markets, win distributors and partners, cut unnecessary costs and present their offer with decks that close.</p>
-<div class="cta"><a class="btn" href="#contact">Book a free 20-minute call</a><a class="btn ghost" href="#services">See services</a></div>
-<div class="strip">
-<div><b>Export and market entry</b>Choose the right market first</div>
-<div><b>Distributors and partners</b>Reach buyers that fit</div>
-<div><b>Cost optimisation</b>Find and track the savings</div>
-<div><b>Decks and presentations</b>Offers people say yes to</div>
+<div class="hero">
+<div class="grid-bg"></div><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+<div class="wrap">
+<span class="pill"><i></i>Taking on new projects worldwide</span>
+<h1>Grow further. <span class="grad">Spend smarter.</span> Pitch better.</h1>
+<p class="lead">Fieldmark is the growth team you don't have to hire. We build your <span class="rot" id="rot">website</span> and the systems around it, so you can focus on running the business.</p>
+<div class="cta"><a class="btn" href="#contact">Book a free 20-minute call &rarr;</a><a class="btn ghost" href="#services">Explore services</a></div>
+<div class="trust"><span><b>Done for you</b>, not just advice</span><span><b>Fixed scope</b> and fixed fees</span><span><b>International</b> and fully online</span></div>
 </div>
 </div>
 
-<section id="services" class="alt"><div class="wrap">
-<span class="eyebrow">Services</span>
-<h2>Practical work that moves revenue and margin.</h2>
-<p class="sub">Fixed-scope projects with clear deliverables. Every engagement starts with a free 20-minute call, then a written quote.</p>
-<div class="grid">
-<div class="card feature"><div class="ic">01</div><h3>Export and market entry</h3><p>For producers and brands deciding where to sell next.</p><ul><li>Market selection scorecard</li><li>Landed-cost and pricing ladder</li><li>Channel map: importer to shelf</li><li>Market-entry requirements checklist</li></ul></div>
-<div class="card"><div class="ic">02</div><h3>Distributor and partner acquisition</h3><p>For businesses ready to find importers, distributors, retailers or B2B partners.</p><ul><li>Researched, qualified target list</li><li>Tailored outreach sequences</li><li>Follow-up and meeting booking</li><li>Trade show preparation and follow-through</li></ul></div>
-<div class="card"><div class="ic">03</div><h3>Cost optimisation and expense tracking</h3><p>For owners who know money is leaking but not where.</p><ul><li>Spend and subscription audit</li><li>Supplier and contract review</li><li>Expense categories and budget set-up</li><li>Monthly tracking sheet or dashboard</li></ul></div>
-<div class="card"><div class="ic">04</div><h3>Sales decks and presentations</h3><p>For teams pitching to buyers, partners, investors or boards.</p><ul><li>Offer and capability decks</li><li>Distributor and retailer pitch decks</li><li>PowerPoint and Google Slides design</li><li>One-page sell sheets and proposals</li></ul></div>
-<div class="card"><div class="ic">05</div><h3>KPI tracking and reporting</h3><p>For businesses running on gut feel instead of numbers.</p><ul><li>KPI definition that matches your goals</li><li>Sales, pipeline and margin trackers</li><li>Automated weekly or monthly reports</li><li>Simple dashboards your team will use</li></ul></div>
-<div class="card"><div class="ic">06</div><h3>Process and operations clean-up</h3><p>For growing teams buried in manual admin.</p><ul><li>Workflow mapping and quick wins</li><li>Templates, SOPs and checklists</li><li>Tool and automation recommendations</li><li>Handover so your team owns it</li></ul></div>
+<div class="marq" aria-hidden="true"><div>
+<span>Websites</span><em>&#9670;</em><span>AI automation</span><em>&#9670;</em><span>Sales decks</span><em>&#9670;</em><span>Cost optimisation</span><em>&#9670;</em><span>KPI dashboards</span><em>&#9670;</em><span>Lead generation</span><em>&#9670;</em><span>Export growth</span><em>&#9670;</em><span>Distributor acquisition</span><em>&#9670;</em>
+<span>Websites</span><em>&#9670;</em><span>AI automation</span><em>&#9670;</em><span>Sales decks</span><em>&#9670;</em><span>Cost optimisation</span><em>&#9670;</em><span>KPI dashboards</span><em>&#9670;</em><span>Lead generation</span><em>&#9670;</em><span>Export growth</span><em>&#9670;</em><span>Distributor acquisition</span><em>&#9670;</em>
+</div></div>
+
+<section id="services"><div class="wrap">
+<span class="eyebrow rv">What we build</span>
+<h2 class="rv">Everything a growing business needs. Built, not just advised.</h2>
+<p class="sub rv">Pick one service or combine them. Every project ends with something real you own: a live website, a working system, a finished deck, a tracker your team uses.</p>
+<div class="bento">
+<div class="tile w2 hot rv" style="--c:var(--ochre)"><span class="n">01</span><span class="ic">&#128421;</span><h3>Websites and landing pages</h3><p>Fast, modern, mobile-first websites that turn visitors into enquiries. Domain, hosting, email, SEO and analytics set up end to end.</p>
+<div class="mock"><div class="bar"><i></i><i></i><i></i></div><div class="hl"></div><div class="l" style="width:85%"></div><div class="l" style="width:60%"></div><div class="row"><div></div><div></div><div></div></div></div></div>
+<div class="tile w2 rv" style="--c:var(--sky)"><span class="n">02</span><span class="ic">&#9881;</span><h3>AI automation and agents</h3><p>Automations that do the repetitive work: lead research, follow-ups, reporting, content scheduling and inbox triage.</p>
+<div class="flow"><span>New lead</span><b>&rarr;</b><span>Research</span><b>&rarr;</b><span>Personalised email</span><b>&rarr;</b><span>CRM + follow-up</span></div></div>
+<div class="tile rv" style="--c:var(--coral)"><span class="n">03</span><span class="ic">&#127919;</span><h3>Sales decks and presentations</h3><p>Offer, investor, buyer and board decks in PowerPoint or Google Slides that people say yes to.</p></div>
+<div class="tile rv" style="--c:var(--mint)"><span class="n">04</span><span class="ic">&#128176;</span><h3>Cost optimisation</h3><p>Spend and subscription audits, supplier re-quotes and a monthly tracker so savings stick.</p></div>
+<div class="tile w2 rv" style="--c:var(--mint)"><span class="n">05</span><span class="ic">&#128200;</span><h3>KPI dashboards and reporting</h3><p>One live view of cash, sales, pipeline and margin. Weekly reports that write themselves.</p>
+<div class="bars"><i style="height:35%"></i><i style="height:52%"></i><i style="height:44%"></i><i style="height:66%"></i><i style="height:58%"></i><i style="height:78%"></i><i style="height:72%"></i><i style="height:92%"></i></div></div>
+<div class="tile rv" style="--c:var(--sky)"><span class="n">06</span><span class="ic">&#129522;</span><h3>Lead generation</h3><p>Researched target lists, outreach sequences and meeting booking for B2B sales.</p></div>
+<div class="tile rv" style="--c:var(--ochre)"><span class="n">07</span><span class="ic">&#127760;</span><h3>Export and market entry</h3><p>Market selection, landed-cost pricing and channel strategy for new countries.</p></div>
+<div class="tile rv" style="--c:var(--coral)"><span class="n">08</span><span class="ic">&#129309;</span><h3>Distributor and partner acquisition</h3><p>Find, pitch and sign the importers, distributors and partners that fit.</p></div>
+<div class="tile rv" style="--c:var(--sky)"><span class="n">09</span><span class="ic">&#128241;</span><h3>Social content and brand</h3><p>Brand kits, content calendars and scheduled posts across your channels.</p></div>
+<div class="tile w2 rv" style="--c:var(--ochre)"><span class="n">10</span><span class="ic">&#128736;</span><h3>Operations clean-up</h3><p>Workflow mapping, templates, SOPs and the right tools, so your team stops drowning in admin.</p>
+<ul><li>Process maps</li><li>Templates</li><li>SOPs</li><li>Tool set-up</li><li>Handover</li></ul></div>
 </div>
 </div></section>
 
-<section id="how"><div class="wrap">
-<span class="eyebrow">How it works</span>
-<h2>From first call to measurable result.</h2>
-<p class="sub">A simple, transparent process. You always know what is being delivered and when.</p>
+<section id="how" style="background:var(--bg2)"><div class="wrap">
+<span class="eyebrow rv">How we work</span>
+<h2 class="rv">From first call to live result in weeks, not months.</h2>
+<p class="sub rv">A simple process with no surprises. You approve the scope and price before anything starts.</p>
 <div class="steps">
-<div class="step"><h3>Discover</h3><p>A free 20-minute call to understand your business, goals and constraints.</p></div>
-<div class="step"><h3>Scope</h3><p>A written proposal with deliverables, timeline and a fixed fee.</p></div>
-<div class="step"><h3>Deliver</h3><p>Focused work with regular check-ins and clear outputs, not vague advice.</p></div>
-<div class="step"><h3>Hand over</h3><p>Everything is documented so your team can run it without us.</p></div>
+<div class="step rv"><span class="k">01</span><h3>Discover</h3><p>A free 20-minute call to understand your business, goals and bottlenecks.</p></div>
+<div class="step rv"><span class="k">02</span><h3>Scope</h3><p>A written proposal with deliverables, timeline and a fixed fee within 48 hours.</p></div>
+<div class="step rv"><span class="k">03</span><h3>Build</h3><p>We do the work and show progress as we go. No vague slide decks of advice.</p></div>
+<div class="step rv"><span class="k">04</span><h3>Launch and hand over</h3><p>It goes live, it is documented, and your team knows how to run it.</p></div>
 </div>
 </div></section>
 
-<section class="alt"><div class="wrap two">
-<div><span class="eyebrow">Why Fieldmark</span><h2>Hands-on experience, not theory.</h2><p class="sub">Fieldmark is built on years of real work in international export, distribution, partnerships and account management.</p></div>
-<ul class="why">
-<li><b>Both sides of the deal</b><span>Experience as the business selling and as the distributor buying, so pitches and terms are realistic.</span></li>
-<li><b>International by default</b><span>Working with businesses across Europe, the Americas, the Middle East, Asia and Australia, fully online.</span></li>
-<li><b>AI-assisted, human-checked</b><span>Research and analysis run faster with AI tools. Every recommendation is reviewed by a person.</span></li>
-<li><b>Fixed fees, clear scope</b><span>No open-ended billing. You approve the scope and price before work starts.</span></li>
-</ul>
+<section id="packages"><div class="wrap">
+<span class="eyebrow rv">Ways to work together</span>
+<h2 class="rv">Start small or go all in.</h2>
+<p class="sub rv">Every engagement is quoted at a fixed fee after the free call.</p>
+<div class="offers">
+<div class="offer rv"><span class="tag">Sprint</span><h3>One focused fix</h3><p>A single deliverable, done fast.</p><ul><li>One website, deck or audit</li><li>1 to 3 weeks</li><li>Fixed fee, paid on milestones</li><li>Full handover</li></ul><a class="btn ghost" href="#contact">Get a quote</a></div>
+<div class="offer pop rv"><span class="tag">Most popular</span><h3>Growth build</h3><p>The full foundation for winning customers.</p><ul><li>Website, email and analytics</li><li>Sales deck and offer</li><li>Lead generation system</li><li>KPI dashboard</li><li>4 to 8 weeks</li></ul><a class="btn" href="#contact">Book a call</a></div>
+<div class="offer rv"><span class="tag">Partner</span><h3>Ongoing growth team</h3><p>A monthly retainer that keeps everything moving.</p><ul><li>Outreach and follow-ups</li><li>Content and website updates</li><li>Monthly reporting and savings review</li><li>Cancel any month</li></ul><a class="btn ghost" href="#contact">Talk to us</a></div>
+</div>
 </div></section>
 
-<section id="faq"><div class="wrap two">
-<div><span class="eyebrow">FAQ</span><h2>Common questions.</h2></div>
-<div>
-<details><summary>What does an engagement cost?</summary><p>Every project is quoted at a fixed fee after the free call, based on scope. Small projects such as a single deck or an expense audit are quoted lower than multi-month export programs.</p></details>
-<details><summary>Do you guarantee distributor deals or savings?</summary><p>No. We guarantee the work: qualified targets, professional outreach, a rigorous cost review and clear deliverables. Results depend on your product, price and market.</p></details>
-<details><summary>Do you handle legal, tax or regulatory approvals?</summary><p>No. We flag requirements and work alongside your accountant, lawyer, customs broker or compliance specialist. We do not give legal, tax or financial advice.</p></details>
-<details><summary>Which industries do you work with?</summary><p>Mainly food and beverage, consumer products and service businesses. Cost optimisation, tracking and presentation work suits most small and mid-sized businesses.</p></details>
-<details><summary>Can you work remotely?</summary><p>Yes. All work can be delivered online, for clients in any time zone.</p></details>
+<section style="background:var(--bg2)"><div class="wrap why">
+<div class="rv"><span class="eyebrow">Why Fieldmark</span><p class="big">Most consultants hand you a report. <em>We hand you a working system.</em></p></div>
+<div class="checks">
+<div class="check rv"><i>&#9889;</i><div><b>Built and delivered</b><span>Websites, automations, decks and trackers are built by us and handed over ready to use.</span></div></div>
+<div class="check rv"><i>&#127758;</i><div><b>International experience</b><span>Real work in export, distribution, partnerships and account management across several continents.</span></div></div>
+<div class="check rv"><i>&#129302;</i><div><b>AI-powered, human-checked</b><span>AI makes the work faster and cheaper. A person reviews every output before you see it.</span></div></div>
+<div class="check rv"><i>&#128274;</i><div><b>You own everything</b><span>Your domain, your accounts, your data. No lock-in.</span></div></div>
+</div>
+</div></section>
+
+<section id="faq"><div class="wrap faq">
+<div class="rv"><span class="eyebrow">FAQ</span><h2>Good questions.</h2></div>
+<div class="rv">
+<details><summary>How much does a project cost?</summary><p>Each project is quoted at a fixed fee after the free call. A single deck or audit costs far less than a full growth build. You approve the price before work starts.</p></details>
+<details><summary>How fast can you deliver?</summary><p>Sprints usually take 1 to 3 weeks. A full growth build takes 4 to 8 weeks, depending on scope and how quickly we get your input.</p></details>
+<details><summary>Do you only work with food or export businesses?</summary><p>No. Websites, automation, decks, cost optimisation and dashboards suit almost any small or mid-sized business. Export and distributor work is one specialty among several.</p></details>
+<details><summary>Do you guarantee sales or savings?</summary><p>No one honest can. We guarantee the work: clear deliverables, professional quality and on-time delivery. Results depend on your product, price and market.</p></details>
+<details><summary>Do you give legal, tax or financial advice?</summary><p>No. We work alongside your accountant, lawyer or other licensed advisers where needed.</p></details>
+<details><summary>Where are you based?</summary><p>Headquartered in Sydney, Australia, and working with clients worldwide, fully online.</p></details>
 </div>
 </div></section>
 
 <section id="contact"><div class="wrap">
-<div class="contact">
-<div><span class="eyebrow" style="color:var(--ochre)">Get in touch</span><h2>Tell us what you want to fix or grow.</h2><p class="sub">We reply within one business day to book a free 20-minute call.</p><p><a href="mailto:hello@fieldmarkconsultancy.com" style="color:var(--ochre);font-weight:600">hello@fieldmarkconsultancy.com</a></p></div>
+<div class="contact rv">
+<div><span class="eyebrow">Let's talk</span><h2>Tell us what you want to fix or grow.</h2><p class="sub" style="margin-bottom:22px">We reply within one business day to book a free 20-minute call. No pressure, no jargon.</p><a class="mail" href="mailto:hello@fieldmarkconsultancy.com">&#9993; hello@fieldmarkconsultancy.com</a></div>
 <form action="https://formsubmit.co/hello@fieldmarkconsultancy.com" method="POST">
 <input type="hidden" name="_subject" value="New enquiry from fieldmarkconsultancy.com">
 <input type="hidden" name="_next" value="https://fieldmarkconsultancy.com/thanks.html">
@@ -168,16 +245,24 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off">
 <input name="name" placeholder="Your name" required>
 <input name="email" type="email" placeholder="Work email" required>
-<input name="company" placeholder="Company">
-<select name="service" required><option value="">What do you need help with?</option><option>Export and market entry</option><option>Distributor and partner acquisition</option><option>Cost optimisation and expense tracking</option><option>Sales decks and presentations</option><option>KPI tracking and reporting</option><option>Process and operations</option><option>Something else</option></select>
+<input name="company" placeholder="Company and website">
+<select name="service" required><option value="">What do you need?</option><option>Website or landing page</option><option>AI automation</option><option>Sales deck or presentation</option><option>Cost optimisation</option><option>KPI dashboard and reporting</option><option>Lead generation</option><option>Export and market entry</option><option>Distributor and partner acquisition</option><option>Social content and brand</option><option>Operations clean-up</option><option>Not sure yet</option></select>
 <textarea name="message" placeholder="A few lines about your business and goal"></textarea>
-<button class="btn ochre" type="submit">Send enquiry</button>
+<button class="btn" type="submit">Send enquiry &rarr;</button>
 </form>
 </div>
 </div></section>
 </main>
 
-<footer><div class="wrap"><span>&copy; <span id="y">2026</span> Fieldmark Consultancy · Sydney, Australia</span><span><a href="mailto:hello@fieldmarkconsultancy.com">hello@fieldmarkconsultancy.com</a> · <a href="https://www.linkedin.com/company/fieldmark-consultancy">LinkedIn</a> · <a href="privacy.html">Privacy</a></span></div></footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+<footer><div class="wrap"><span>&copy; <span id="y">2026</span> Fieldmark Consultancy &middot; Sydney, Australia &middot; Working worldwide</span><span><a href="mailto:hello@fieldmarkconsultancy.com">hello@fieldmarkconsultancy.com</a> &middot; <a href="https://www.linkedin.com/company/fieldmark-consultancy">LinkedIn</a> &middot; <a href="privacy.html">Privacy</a></span></div></footer>
+
+<script>
+document.getElementById('y').textContent=new Date().getFullYear();
+const hd=document.getElementById('hd');addEventListener('scroll',()=>hd.classList.toggle('s',scrollY>20),{passive:true});
+const words=['website','sales deck','automations','dashboards','lead engine','export plan'];let wi=0;const rot=document.getElementById('rot');
+setInterval(()=>{rot.style.opacity=0;setTimeout(()=>{wi=(wi+1)%words.length;rot.textContent=words[wi];rot.style.opacity=1},250)},2200);
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach((el,i)=>{el.style.transitionDelay=(i%4)*70+'ms';io.observe(el)});
+</script>
 </body>
 </html>
