@@ -53,7 +53,7 @@ h1 em{font-style:italic;color:var(--brass)}
 .hero-art:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:44px 44px}
 .hero-art img{position:relative;width:74%;height:auto}
 .hero-art .cap{position:absolute;left:22px;right:22px;bottom:18px;display:flex;justify-content:space-between;color:#B9C3CA;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase}
-.creds{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.creds{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line)}
 .creds div{padding:26px 24px 26px 0}
 .creds div+div{padding-left:24px;border-left:1px solid var(--line)}
 .creds b{display:block;font-family:Fraunces,serif;font-weight:500;font-size:20px;line-height:1.25;margin-bottom:6px}
@@ -69,7 +69,7 @@ h2{font-size:clamp(32px,4.2vw,52px);line-height:1.08;margin-top:14px}
 .pillar h3{font-size:34px;margin:10px 0}
 .pillar>p{color:var(--ink2);font-size:16px}
 .pillar ul{list-style:none;margin-top:22px}
-.pillar li{padding:13px 0;border-top:1px solid var(--line);font-size:15.5px;display:flex;justify-content:space-between;gap:12px}
+.pillar li{padding:12px 14px;margin-top:8px;border-left:3px solid var(--brass2);background:#FAF7F1;font-size:15.5px;font-weight:500}
 .pillar li span{color:var(--mut);font-size:14px;white-space:nowrap}
 .dark{background:var(--ink);color:var(--paper)}
 .dark .head p,.dark .step p{color:#AEB9C1}
@@ -100,6 +100,19 @@ h2{font-size:clamp(32px,4.2vw,52px);line-height:1.08;margin-top:14px}
 .pack ul{list-style:none;flex:1;margin-bottom:28px}
 .pack li{padding:8px 0 8px 22px;position:relative;font-size:15.5px}
 .pack li:before{content:"";position:absolute;left:0;top:18px;width:10px;height:1.5px;background:var(--brass)}
+.photo-hero{background-size:cover;background-position:center right;color:var(--paper);padding:120px 0 110px;margin:0}
+.photo-hero h1{color:#fff;max-width:13ch}
+.photo-hero h1 em{color:var(--brass2)}
+.photo-hero .lead{color:#C9D3D8;max-width:44ch}
+.photo-hero .kicker{color:var(--brass2)}
+.btn.gold{background:var(--brass2);border-color:var(--brass2);color:var(--ink)}.btn.gold:hover{background:#D8B670}
+.btn.ghost{background:transparent;border-color:rgba(255,255,255,.6);color:#fff}.btn.ghost:hover{background:#fff;color:var(--ink)}
+.approach{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.approach .ph{border-radius:12px;overflow:hidden;aspect-ratio:4/3;background:var(--ink)}
+.approach .ph img{width:100%;height:100%;object-fit:cover;display:block}
+.ap{color:var(--ink2);font-size:18px;margin:18px 0 20px}
+.ticks{list-style:none}.ticks li{display:flex;gap:10px;align-items:center;padding:6px 0;font-weight:500}.ticks i{color:var(--brass);font-size:20px}
+@media(max-width:960px){.approach{grid-template-columns:1fr}.photo-hero{padding:80px 0;background-position:center}}
 .leaks{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
 .leak{display:flex;align-items:center;gap:14px;padding:20px;background:#fff;border:1px solid var(--line);border-radius:10px;font-size:15.5px;transition:border-color .2s,transform .2s}
 .leak:hover{border-color:var(--brass2);transform:translateY(-2px)}
@@ -144,22 +157,20 @@ footer nav{display:flex;gap:24px}footer a{text-decoration:none}footer a:hover{co
 <a class="skip" href="#main">Skip to content</a>
 <header><div class="wrap nav">
 <a class="brand" href="#top" aria-label="Fieldmark Consultancy home"><img src="assets/mark.svg" alt="" width="38" height="38"><span><b>Fieldmark</b><small>Consultancy</small></span></a>
-<nav aria-label="Main"><ul><li><a href="#services">Services</a></li><li><a href="#approach">Approach</a></li><li><a href="#pricing">How we price</a></li><li><a href="#faq">FAQ</a></li></ul></nav>
+<nav aria-label="Main"><ul><li><a href="#about">Approach</a></li><li><a href="#services">Services</a></li><li><a href="#approach">Process</a></li><li><a href="#pricing">How we price</a></li><li><a href="#faq">FAQ</a></li></ul></nav>
 <a class="btn" href="#contact">Book a call</a>
 </div></header>
 
 <main id="main"><span id="top"></span>
+<div class="photo-hero" style="background-image:linear-gradient(90deg,rgba(15,30,43,.94) 0%,rgba(15,30,43,.78) 45%,rgba(15,30,43,.25) 100%),url('https://unsplash.com/photos/nApaSgkzaxg/download?w=2000')">
 <div class="wrap">
-<div class="hero">
-<div>
 <span class="kicker">Business growth consultancy &middot; International</span>
 <h1>Stop losing money. Start <em>winning</em> customers.</h1>
 <p class="lead">Independent cost, growth and systems consultancy for small and mid-sized businesses.</p>
-<div class="cta"><a class="btn" href="#contact">Book a free 20-minute call</a><a class="btn line" href="#leaks">Where money leaks</a></div>
-<p class="note">Free consultation. Tailored fixed quote. No lock-in.</p>
+<div class="cta"><a class="btn gold" href="#contact">Book a free consultation</a><a class="btn ghost" href="#leaks">Where money leaks</a></div>
 </div>
-<div class="hero-art" aria-hidden="true"><img src="assets/mark-3d.png" alt="" width="1024" height="1024"><div class="cap"><span>Fieldmark</span><span>Sydney &middot; Worldwide</span></div></div>
 </div>
+<div class="wrap">
 <div class="creds fade">
 <div><b>Independent</b><span>No supplier commissions</span></div>
 <div><b>Tailored</b><span>Quote after a free consult</span></div>
@@ -167,6 +178,11 @@ footer nav{display:flex;gap:24px}footer a{text-decoration:none}footer a:hover{co
 <div><b>You own it</b><span>Every file and account</span></div>
 </div>
 </div>
+
+<section id="about" style="padding-bottom:30px"><div class="wrap approach">
+<div class="ph fade"><img src="https://unsplash.com/photos/oUbzU87d1Gc/download?w=1400" alt="Business owner reviewing figures on a laptop with a calculator" loading="lazy"></div>
+<div class="fade"><span class="kicker">Our approach</span><h2>We look at every dollar going out.</h2><p class="ap">Suppliers, subscriptions, freight, fees and pricing. We find what you are overpaying, fix it, and set up tracking so it stays fixed.</p><ul class="ticks"><li><i class="ti ti-check" aria-hidden="true"></i>Independent of every supplier</li><li><i class="ti ti-check" aria-hidden="true"></i>Tailored, fixed quote</li><li><i class="ti ti-check" aria-hidden="true"></i>You approve every change</li></ul><div class="cta" style="margin-top:28px"><a class="btn" href="#contact">Book a free consultation</a></div></div>
+</div></section>
 
 <section id="leaks" style="padding-bottom:40px"><div class="wrap">
 <div class="head fade"><div><span class="kicker">Where money leaks</span><h2>We check the usual suspects.</h2></div><p>Most small businesses overpay in the same places.</p></div>
@@ -231,7 +247,7 @@ footer nav{display:flex;gap:24px}footer a{text-decoration:none}footer a:hover{co
 </div></section>
 </main>
 
-<footer><div class="wrap"><span>&copy; <span id="y">2026</span> Fieldmark Consultancy &middot; Sydney, Australia</span><nav aria-label="Footer"><a href="mailto:hello@fieldmarkconsultancy.com">Email</a><a href="https://www.linkedin.com/company/fieldmark-consultancy">LinkedIn</a><a href="privacy.html">Privacy</a></nav></div></footer>
+<footer><div class="wrap"><span>&copy; <span id="y">2026</span> Fieldmark Consultancy &middot; Sydney, Australia &middot; Photos: Unsplash</span><nav aria-label="Footer"><a href="mailto:hello@fieldmarkconsultancy.com">Email</a><a href="https://www.linkedin.com/company/fieldmark-consultancy">LinkedIn</a><a href="privacy.html">Privacy</a></nav></div></footer>
 <script>
 document.getElementById('y').textContent=new Date().getFullYear();
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1});
