@@ -4,8 +4,8 @@
   var A = {
     services: {
       q: "What do you do?",
-      a: "We work in three areas:<br><b>Optimise</b> - cost and supplier review, expense tracking, KPI dashboards.<br><b>Grow</b> - market entry plans, distributor outreach, pricing models, lead generation.<br><b>Build</b> - business websites, sales decks, workflow automation.<br>Every project ends with real output you keep, not just a report.",
-      k: ["service", "do you do", "offer", "help with", "what do", "optimise", "build", "grow", "website", "deck", "automation", "dashboard", "kpi", "lead"]
+      a: "We build practical tools for small businesses:<br><b>Get costs right</b> - a cost and margin model in Excel or Google Sheets showing every cost, supplier and product margin, plus supplier price comparisons and expense trackers.<br><b>See the numbers</b> - KPI dashboards, cash flow forecasts and pricing calculators.<br><b>Sell and save time</b> - sales and pitch decks, business websites and workflow automation.<br>You own every file. Not a report.",
+      k: ["service", "do you do", "offer", "help with", "what do", "build", "website", "deck", "presentation", "automation", "dashboard", "kpi", "spreadsheet", "excel", "sheet", "margin", "cost model", "forecast"]
     },
     pricing: {
       q: "How much does it cost?",
