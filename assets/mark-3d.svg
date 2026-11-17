@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<defs>
+<linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1D3346"/><stop offset="1" stop-color="#0A1621"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F3DDA4"/><stop offset=".45" stop-color="#C9A45C"/><stop offset="1" stop-color="#8C6A2C"/></linearGradient>
+<linearGradient id="gold2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF1CC"/><stop offset="1" stop-color="#D2B06A"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<radialGradient id="sh" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#000" stop-opacity=".35"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<ellipse cx="205" cy="372" rx="150" ry="18" fill="url(#sh)"/>
+<rect x="44" y="52" width="312" height="312" rx="70" fill="#050C12"/>
+<rect x="40" y="40" width="312" height="312" rx="70" fill="url(#tile)"/>
+<rect x="40" y="40" width="312" height="312" rx="70" fill="url(#sheen)"/>
+<rect x="41" y="41" width="310" height="310" rx="69" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="2"/>
+<g transform="translate(30,40) scale(2.6)">
+<g transform="translate(2.2,2.2)" fill="#5E4517"><path d="M40 26h8v62l-4 8-4-8z"/><path d="M50 26h38l-8 10 8 10H50z"/><path d="M50 52h24l-6 8 6 8H50z"/></g>
+<path d="M40 26h8v62l-4 8-4-8z" fill="url(#gold)"/><path d="M50 26h38l-8 10 8 10H50z" fill="url(#gold)"/><path d="M50 52h24l-6 8 6 8H50z" fill="url(#gold2)"/>
+<path d="M40 26h8v2h-8zM50 26h38l-1.6 2H50zM50 52h24l-1.4 2H50z" fill="#fff" fill-opacity=".55"/>
+</g>
+</svg>
