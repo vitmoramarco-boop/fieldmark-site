@@ -25,7 +25,7 @@
 <meta name="twitter:image" content="https://fieldmarkconsultancy.com/assets/og-v3.png">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"ProfessionalService","name":"Fieldmark Consultancy","description":"Export consultancy for food and beverage producers: export-ready documents, market rules for labels and gluten-free claims, importer and distributor search and outreach. Gluten-free and allergen-free specialists.","knowsAbout":["Food export","Market entry","Gluten-free food","Allergen-free food","Importer and distributor search","Private label","Food labelling"],"url":"https://fieldmarkconsultancy.com/","email":"hello@fieldmarkconsultancy.com","logo":"https://fieldmarkconsultancy.com/assets/mark-512.png","areaServed":"Worldwide","sameAs":["https://www.linkedin.com/company/fieldmark-consultancy"]}
 </script>
@@ -33,7 +33,7 @@
 :root{--paper:#F7F4EE;--ink:#0F1E2B;--ink2:#46535E;--mut:#7A858D;--brass:#9A7735;--brass2:#C9A45C;--line:#DDD6C8;--card:#fff;--r:12px}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;scroll-padding-top:80px}
-body{font-family:Inter,system-ui,sans-serif;background:var(--paper);color:var(--ink);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+body{font-family:'Source Sans 3',system-ui,sans-serif;background:var(--paper);color:var(--ink);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
 h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:500;letter-spacing:-.015em}
 a{color:inherit}
 .wrap{max-width:1160px;margin:0 auto;padding:0 28px}
@@ -69,7 +69,7 @@ header{position:sticky;top:0;z-index:30;background:#F7F4EE;backdrop-filter:blur(
 .routes .arc{fill:none;stroke:var(--brass2);stroke-width:1.6;stroke-dasharray:6 7;animation:dash 2.4s linear infinite}
 .routes .dot{fill:var(--brass2)}
 .routes .pulse{fill:none;stroke:var(--brass2);stroke-width:1.2;transform-box:fill-box;transform-origin:center;animation:pulse 2.6s ease-out infinite}
-.routes text{fill:#C9D3D8;font:500 11px Inter,sans-serif;letter-spacing:.12em}
+.routes text{fill:#C9D3D8;font:500 11px 'Source Sans 3',sans-serif;letter-spacing:.12em}
 @keyframes dash{to{stroke-dashoffset:-26}}
 @keyframes pulse{0%{opacity:.9;transform:scale(.4)}100%{opacity:0;transform:scale(2.4)}}
 
@@ -110,7 +110,7 @@ h2{font-size:clamp(32px,4.2vw,50px);line-height:1.08;margin-top:12px}
 /* market picker */
 .picker{display:grid;grid-template-columns:280px 1fr;gap:28px;align-items:start}
 .tabs{display:flex;flex-direction:column;gap:6px}
-.tab{display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:14px 16px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:transparent;color:#C9D3D8;font:500 15.5px Inter,sans-serif;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.tab{display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:14px 16px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:transparent;color:#C9D3D8;font:500 15.5px 'Source Sans 3',sans-serif;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
 .tab i{font-size:20px;color:var(--brass2)}
 .tab:hover{border-color:rgba(201,164,92,.6);color:#fff}
 .tab[aria-selected=true]{background:var(--brass2);border-color:var(--brass2);color:var(--ink)}
@@ -193,7 +193,7 @@ footer nav{display:flex;gap:24px}footer a{text-decoration:none}footer a:hover{co
 .fm-ring{width:clamp(96px,20vw,150px);aspect-ratio:1;border-radius:50%;display:grid;place-items:center;position:relative;color:var(--brass2);background:linear-gradient(145deg,#1B3044,#0B1824);box-shadow:-8px -8px 18px rgba(255,255,255,.9),12px 12px 24px rgba(15,30,43,.28);transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s}
 .fm-ring::before{content:"";position:absolute;inset:-8px;border-radius:50%;border:1px solid var(--brass2);opacity:.3;transition:opacity .35s}
 .fm-ring i{font-size:clamp(38px,7vw,52px)}
-.fm-ring b{position:absolute;top:-4px;right:0;width:34px;height:34px;border-radius:50%;background:linear-gradient(145deg,#D8B670,#B08E48);color:var(--ink);display:grid;place-items:center;font:600 15px Inter,sans-serif;box-shadow:3px 3px 8px rgba(15,30,43,.25)}
+.fm-ring b{position:absolute;top:-4px;right:0;width:34px;height:34px;border-radius:50%;background:linear-gradient(145deg,#D8B670,#B08E48);color:var(--ink);display:grid;place-items:center;font:600 15px 'Source Sans 3',sans-serif;box-shadow:3px 3px 8px rgba(15,30,43,.25)}
 .fm-lbl{font-weight:600;font-size:16px;text-align:center}
 .fm-seal:hover .fm-ring{transform:translateY(-3px)}
 .fm-seal[aria-selected=true] .fm-ring{transform:scale(.97);box-shadow:inset 6px 6px 14px rgba(0,0,0,.45),inset -4px -4px 10px rgba(255,255,255,.08),-6px -6px 14px rgba(255,255,255,.9)}
@@ -219,7 +219,7 @@ footer nav{display:flex;gap:24px}footer a{text-decoration:none}footer a:hover{co
 .fm-ic{flex:none;width:64px;height:64px;border-radius:18px;display:grid;place-items:center;font-size:32px;color:var(--brass2);background:rgba(201,164,92,.12)}
 .fm-stepcard h3{font-size:24px}.fm-stepcard p{color:#B8C4CB;margin-top:4px}
 .fm-ctl{display:flex;gap:12px;margin-top:18px}
-.fm-btn{min-height:46px;padding:0 20px;border-radius:12px;border:0;background:var(--paper);color:var(--ink);font:600 15px Inter,sans-serif;cursor:pointer;box-shadow:-4px -4px 10px #fff,5px 5px 12px rgba(15,30,43,.15)}
+.fm-btn{min-height:46px;padding:0 20px;border-radius:12px;border:0;background:var(--paper);color:var(--ink);font:600 15px 'Source Sans 3',sans-serif;cursor:pointer;box-shadow:-4px -4px 10px #fff,5px 5px 12px rgba(15,30,43,.15)}
 .fm-btn.gold{background:linear-gradient(145deg,#D8B670,#B08E48)}
 .fm-btn:disabled{opacity:.45;cursor:default}
 .fm-flip{perspective:1200px;cursor:pointer;border-radius:var(--r);outline:none}
@@ -420,6 +420,6 @@ function upd(){bar.classList.toggle('show',!hv&&!cv)}
 new IntersectionObserver(function(es){hv=es[0].isIntersecting;upd()}).observe(hero);
 new IntersectionObserver(function(es){cv=es[0].isIntersecting;upd()}).observe(ct);
 </script>
-<script src="assets/chat.js?v=20261129" defer></script>
+<script src="assets/chat.js?v=20261129b" defer></script>
 </body>
 </html>
