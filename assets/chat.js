@@ -4,7 +4,7 @@
   var A = {
     services: {
       q: "What do you do?",
-      a: "We build practical tools for small businesses:<br><b>Get costs right</b> - a cost and margin model in Excel or Google Sheets showing every cost, supplier and product margin, plus supplier price comparisons and expense trackers.<br><b>See the numbers</b> - KPI dashboards, cash flow forecasts and pricing calculators.<br><b>Sell and save time</b> - sales and pitch decks, business websites and workflow automation.<br>You own every file. Not a report.",
+      a: "We help food producers export and build practical business tools:<br><b>Export growth</b> - export-ready documents, market compliance for labels and gluten-free claims, importer and distributor outreach.<br><b>Get costs right</b> - a cost and margin model in Excel or Google Sheets showing every cost, supplier and product margin, plus supplier price comparisons and expense trackers.<br><b>See the numbers</b> - KPI dashboards, cash flow forecasts and pricing calculators.<br><b>Sell and save time</b> - sales and pitch decks, business websites and workflow automation.<br>You own every file. Not a report.",
       k: ["service", "do you do", "offer", "help with", "what do", "build", "website", "deck", "presentation", "automation", "dashboard", "kpi", "spreadsheet", "excel", "sheet", "margin", "cost model", "forecast"]
     },
     pricing: {
@@ -14,8 +14,8 @@
     },
     who: {
       q: "Who do you work with?",
-      a: "Small and mid-sized businesses, especially food and beverage, consumer products and B2B services. We are based in Sydney and work with clients in Australia and internationally, in any time zone.",
-      k: ["who", "industry", "industries", "size", "small", "client", "remote", "where", "international", "sydney", "time zone"]
+      a: "Food and beverage producers and ingredient makers selling abroad, specialists in gluten-free and allergen-free food. We work with clients worldwide, in English and Italian, in any time zone.",
+      k: ["who", "industry", "industries", "size", "small", "client", "remote", "where", "international", "time zone"]
     },
     savings: {
       q: "Do you guarantee savings?",
@@ -28,9 +28,9 @@
       k: ["how does", "process", "work", "steps", "start", "timeline", "long", "weeks", "own"]
     },
     export: {
-      q: "Can export clients claim the cost?",
-      a: "Possibly. Consultant research and promotion can be an eligible expense under Austrade's Export Market Development Grants. EMDG is matched funding with turnover and minimum spend conditions (at least A$20,000 of your own spend on eligible activities), so it is not a refund and not guaranteed. Check eligibility with Austrade.",
-      k: ["export", "emdg", "grant", "austrade", "distributor", "market entry", "overseas", "import"]
+      q: "Can you help us export?",
+      a: "Yes. We get you export-ready (data sheets, price list, proposals, logistics), check each market's rules for labels and gluten-free or allergen claims, and find and contact importers and distributors in the European Union, the United Kingdom, North America, the Middle East, Asia, Australia and New Zealand and other markets.",
+      k: ["export", "distributor", "importer", "market entry", "overseas", "import", "abroad", "gluten", "allergen", "label", "halal", "kosher", "market"]
     },
     advice: {
       q: "Do you give tax or legal advice?",
