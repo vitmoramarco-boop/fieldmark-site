@@ -4,7 +4,7 @@
   var A = {
     services: {
       q: "What do you do?",
-      a: "We help food and beverage producers sell abroad:<br><b>Export-ready</b> - data sheets, export price list, proposals, logistics sheet and buyer presentation.<br><b>Market rules</b> - gluten-free and allergen claims, label review, import checklists and certification gaps.<br><b>Buyers</b> - target lists of importers, distributors and retailers, outreach, samples and private label.<br>We also build export pricing models, dashboards and websites. You own every file.",
+      a: "We help food and beverage producers sell abroad:<br><b>Export Readiness</b> - multilingual product specifications, export price list, commercial proposal, logistics schedule and trade catalogue.<br><b>Market Compliance</b> - gluten-free and allergen claims by market, label review, import requirements and certification gap analysis.<br><b>Market Entry</b> - target importers, distributors and retailers, structured outreach, samples and private label proposals.<br>We also build export pricing models, dashboards and websites. You own every file.",
       k: ["service", "do you do", "offer", "help with", "what do", "build", "website", "deck", "presentation", "automation", "dashboard", "kpi", "spreadsheet", "excel", "sheet", "margin", "cost model", "forecast"]
     },
     pricing: {
@@ -24,7 +24,7 @@
     },
     process: {
       q: "How does it work?",
-      a: "Four steps: <b>Free check</b> (20-minute call), <b>Plan</b> (fixed-fee proposal within 48 hours), <b>Build</b> (documents, labels and price lists) and <b>Meet buyers</b> (target lists, outreach and samples). Nothing moves without your approval.",
+      a: "Four stages: <b>Assessment</b> (a 20-minute review, no cost), <b>Proposal</b> (fixed-fee scope within 48 hours), <b>Build</b> (documentation, labelling and pricing) and <b>Market entry</b> (target accounts, outreach and samples). Nothing moves without your approval.",
       k: ["how does", "process", "work", "steps", "start", "timeline", "long", "weeks", "own"]
     },
     export: {
