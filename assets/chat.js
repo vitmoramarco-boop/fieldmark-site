@@ -4,7 +4,7 @@
   var A = {
     services: {
       q: "What do you do?",
-      a: "We help food producers export and build practical business tools:<br><b>Export growth</b> - export-ready documents, market compliance for labels and gluten-free claims, importer and distributor outreach.<br><b>Get costs right</b> - a cost and margin model in Excel or Google Sheets showing every cost, supplier and product margin, plus supplier price comparisons and expense trackers.<br><b>See the numbers</b> - KPI dashboards, cash flow forecasts and pricing calculators.<br><b>Sell and save time</b> - sales and pitch decks, business websites and workflow automation.<br>You own every file. Not a report.",
+      a: "We help food and beverage producers sell abroad:<br><b>Export-ready</b> - data sheets, export price list, proposals, logistics sheet and buyer presentation.<br><b>Market rules</b> - gluten-free and allergen claims, label review, import checklists and certification gaps.<br><b>Buyers</b> - target lists of importers, distributors and retailers, outreach, samples and private label.<br>We also build export pricing models, dashboards and websites. You own every file.",
       k: ["service", "do you do", "offer", "help with", "what do", "build", "website", "deck", "presentation", "automation", "dashboard", "kpi", "spreadsheet", "excel", "sheet", "margin", "cost model", "forecast"]
     },
     pricing: {
@@ -18,13 +18,13 @@
       k: ["who", "industry", "industries", "size", "small", "client", "remote", "where", "international", "time zone"]
     },
     savings: {
-      q: "Do you guarantee savings?",
-      a: "No honest consultant can guarantee savings or sales. We commit to clear deliverables, quality and deadlines. Results depend on your product, price and market.",
+      q: "Do you guarantee sales?",
+      a: "No honest consultant can guarantee sales. We commit to clear deliverables, quality and deadlines. Results depend on your product, price and market.",
       k: ["guarantee", "savings", "save", "results", "roi", "promise"]
     },
     process: {
       q: "How does it work?",
-      a: "Four steps: <b>Diagnose</b> (free 20-minute call), <b>Scope</b> (fixed-fee proposal in 48 hours), <b>Deliver</b> (we build, you see progress) and <b>Hand over</b> (you own every file and account). Nothing moves without your approval.",
+      a: "Four steps: <b>Free check</b> (20-minute call), <b>Plan</b> (fixed-fee proposal within 48 hours), <b>Build</b> (documents, labels and price lists) and <b>Meet buyers</b> (target lists, outreach and samples). Nothing moves without your approval.",
       k: ["how does", "process", "work", "steps", "start", "timeline", "long", "weeks", "own"]
     },
     export: {
@@ -67,7 +67,7 @@
     ".fmc-form input{flex:1;min-width:0;border:1px solid #DDD6C8;border-radius:8px;padding:10px 12px;font:15px Inter,system-ui,sans-serif;color:#0F1E2B;background:#fff}" +
     ".fmc-form button{border:0;border-radius:8px;background:#C9A45C;color:#0F1E2B;font:600 14px Inter,system-ui,sans-serif;padding:0 14px;cursor:pointer}" +
     ".fmc-note{padding:0 12px 10px;background:#fff;font-size:11.5px;color:#7A858D}" +
-    "@media(max-width:560px){.fmc-btn{right:14px;bottom:14px;padding:12px 15px}.fmc-btn span{display:none}.fmc-panel{right:12px;left:12px;width:auto;bottom:76px;height:calc(100vh - 100px)}}";
+    "@media(max-width:560px){.fmc-btn{right:14px;bottom:84px;padding:12px 15px}.fmc-btn span{display:none}.fmc-panel{right:12px;left:12px;width:auto;bottom:76px;height:calc(100vh - 100px)}}";
 
   var st = document.createElement("style"); st.textContent = css; document.head.appendChild(st);
 
